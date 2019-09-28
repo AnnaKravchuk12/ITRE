@@ -13,3 +13,5 @@
 #### Вношу зміни у п.9
 
 #### git pull
+
+#### ![Фото](https://github.com/AnnaKravchuk12/ITRE/blob/master/lab_1/image.png?raw=true)
