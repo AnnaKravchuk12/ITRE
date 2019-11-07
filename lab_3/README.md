@@ -16,3 +16,11 @@
 5. Створила темплейт додатку, назвала `main`.
 
 6. Створила папку __main/templates__ та додала файл __main/templates/main.html__, а також файл __main/urls.py__. Закомітила зміни.
+
+7. Відредагувала файл __beautiful_project/settings.py__ та внесла зміни у файл __beautiful_project/urls.py__
+
+8. Додала __main/views.py__
+
+9. Заповнила __main/urls.py__ за зразком
+
+10. Запустила сервер:![](./photo/project-start.png) ![](./photo/privet.png) ![](./photo/health.png)
