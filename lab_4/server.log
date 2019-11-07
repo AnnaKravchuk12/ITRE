@@ -1,0 +1,61 @@
+ERROR 2019-11-07 23:56:07,968 root : Вибачте, але в програмі виникла помилка:
+
+
+ERROR 2019-11-08 00:03:28,346 root : Вибачте, але в програмі виникла помилка:
+HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2bc4bb1d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+ERROR 2019-11-08 00:03:31,105 root : Вибачте, але в програмі виникла помилка:
+HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fa578ca01d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+INFO 2019-11-08 00:04:31,246 root : Сервер доступний. Час на сервері: 2019-m-07 22:04:31
+INFO 2019-11-08 00:04:31,247 root : Запитувана сторінка: : /health/
+INFO 2019-11-08 00:04:31,247 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-08 00:04:31,247 root : Ключ: date, Значення: 2019-m-07 22:04:31
+INFO 2019-11-08 00:04:31,247 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-08 00:04:31,247 root : Ключ: server_info, Значення: ['Linux', 'kravchuk', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-08 00:04:31,247 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-08 00:05:31,364 root : Сервер доступний. Час на сервері: 2019-m-07 22:05:31
+INFO 2019-11-08 00:05:31,364 root : Запитувана сторінка: : /health/
+INFO 2019-11-08 00:05:31,364 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-08 00:05:31,364 root : Ключ: date, Значення: 2019-m-07 22:05:31
+INFO 2019-11-08 00:05:31,364 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-08 00:05:31,364 root : Ключ: server_info, Значення: ['Linux', 'kravchuk', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-08 00:05:31,364 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-08 00:06:42,407 root : Сервер доступний. Час на сервері: 2019-m-07 22:06:42
+INFO 2019-11-08 00:06:42,408 root : Запитувана сторінка: : /health/
+INFO 2019-11-08 00:06:42,408 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-08 00:06:42,408 root : Ключ: date, Значення: 2019-m-07 22:06:42
+INFO 2019-11-08 00:06:42,408 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-08 00:06:42,408 root : Ключ: server_info, Значення: ['Linux', 'kravchuk', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-08 00:06:42,408 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-08 00:06:48,452 root : Сервер доступний. Час на сервері: 2019-m-07 22:06:48
+INFO 2019-11-08 00:06:48,452 root : Запитувана сторінка: : /health/
+INFO 2019-11-08 00:06:48,453 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-08 00:06:48,453 root : Ключ: date, Значення: 2019-m-07 22:06:48
+INFO 2019-11-08 00:06:48,453 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-08 00:06:48,453 root : Ключ: server_info, Значення: ['Linux', 'kravchuk', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-08 00:06:48,453 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-08 00:07:20,592 root : Сервер доступний. Час на сервері: 2019-m-07 22:07:20
+INFO 2019-11-08 00:07:20,592 root : Запитувана сторінка: : /health/
+INFO 2019-11-08 00:07:20,593 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-08 00:07:20,593 root : Ключ: date, Значення: 2019-m-07 22:07:20
+INFO 2019-11-08 00:07:20,593 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-08 00:07:20,593 root : Ключ: server_info, Значення: ['Linux', 'kravchuk', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-08 00:07:20,593 root : Ключ: client_info, Значення: python-requests/2.22.0
+INFO 2019-11-08 00:07:26,649 root : Сервер доступний. Час на сервері: 2019-m-07 22:07:26
+INFO 2019-11-08 00:07:26,649 root : Запитувана сторінка: : /health/
+INFO 2019-11-08 00:07:26,649 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-08 00:07:26,649 root : Ключ: date, Значення: 2019-m-07 22:07:26
+INFO 2019-11-08 00:07:26,649 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-08 00:07:26,649 root : Ключ: server_info, Значення: ['Linux', 'kravchuk', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-08 00:07:26,650 root : Ключ: client_info, Значення: python-requests/2.22.0
+ERROR 2019-11-07 22:47:04,711 root : Вибачте, але в програмі виникла помилка:
+HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f79926dc190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+INFO 2019-11-07 22:47:19,344 root : Сервер доступний. Час на сервері: 2019-m-07 22:47:19
+INFO 2019-11-07 22:47:19,345 root : Запитувана сторінка: : /health/
+INFO 2019-11-07 22:47:19,345 root : Відповідь сервера місти наступні поля:
+INFO 2019-11-07 22:47:19,345 root : Ключ: date, Значення: 2019-m-07 22:47:19
+INFO 2019-11-07 22:47:19,345 root : Ключ: current_page, Значення: /health/
+INFO 2019-11-07 22:47:19,345 root : Ключ: server_info, Значення: ['Linux', '123383e7be6d', '5.0.0-32-generic', '#34~18.04.2-Ubuntu SMP Thu Oct 10 10:36:02 UTC 2019', 'x86_64']
+INFO 2019-11-07 22:47:19,345 root : Ключ: client_info, Значення: python-requests/2.22.0
