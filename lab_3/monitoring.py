@@ -18,15 +18,15 @@ def main(url):
         r = requests.get(url)
     except Exception as err:
         logging.error("Вибачте, але в програмі виникла помилка:\n%s\n", err)
-        print("Виникла помилка:\n", err, "\n\n")
+        print("Виникла помилка:\n", err, "\n\n", flush=True)
     else:
         try:
             data = json.loads(r.content)
         except Exception as err:
             logging.warning("Неможливо отримати JSON-дані!\n%s\n", err)
-            print("Неможливо отримати JSON-дані\n", err, "\n\n")
+            print("Неможливо отримати JSON-дані\n", err, "\n\n", flush=True)
         else:
-            print("Server працює!\n")
+            print("Server працює!\n", flush=True)
             logging.info("Сервер доступний. Час на сервері: %s", data['date'])
             logging.info("Запитувана сторінка: : %s", data['current_page'])
             logging.info("Відповідь сервера місти наступні поля:")
