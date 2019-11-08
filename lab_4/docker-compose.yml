@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: annkravchuk/lab4-example:compose-app
+    container_name: app
+    networks:
+      - public
+    ports:
+      - 8000:8000
+    volumes:
+      - mon-logs:/app
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile.monitoring
+    image: annkravchuk/lab4-example:compose-tests
+    container_name: tests
+    depends_on:
+      - django
+    network_mode: host
+volumes:
+  mon-logs:
+    driver: local
+
+networks:
+  public:
+    driver: bridge
